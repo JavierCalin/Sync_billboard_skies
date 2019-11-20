@@ -1,0 +1,17 @@
+#banner {
+	position: absolute;
+	display: block;
+	width: 980px;
+	height: 250px;
+	top: 0px;
+	left: 0px;
+	overflow: hidden;
+}
+
+
+.expand-button {
+	top: 10px;
+	right: 10px;
+	height: 26px;
+	width: 78px;
+}

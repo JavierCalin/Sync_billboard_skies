@@ -1,0 +1,31 @@
+@-webkit-keyframes renderRepair {from { padding: 0; } to { padding: 0; }}
+body {
+    margin: 0px;
+    -webkit-animation: renderRepair infinite 1s;
+}
+#header {
+    overflow: hidden;
+    background-position: center top;
+}
+#sky_izq{
+    background-position:left top;
+}
+#sky_der{
+    background-position:right top;
+}
+#header nav{
+  position: absolute;
+  z-index: 3;
+}
+#header, .sky,.clickthrough-button-header,#clickthroughButton-sky{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.clickthrough-button-header, #clickthroughButton-sky {
+    background-color: transparent;
+    cursor: pointer;
+    z-index: 2;
+}
+
+
